@@ -10,7 +10,6 @@ import SwiftUI
 struct FooterView: View {    
     var total: Double
     var category: TransactionModel.Category
-    @State var transactions: [TransactionModel] = []
     
     var body: some View {
         VStack {
